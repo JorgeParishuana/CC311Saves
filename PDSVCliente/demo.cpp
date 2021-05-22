@@ -13,3 +13,9 @@ Demo::~Demo()
     delete ui;
 }
 
+
+void Demo::on_pushButton_clicked()
+{
+    close();
+}
+
