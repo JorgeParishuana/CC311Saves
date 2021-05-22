@@ -2,6 +2,7 @@
 #define DEMO_H
 
 #include <QWidget>
+#include <QDebug>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Demo; }
@@ -17,6 +18,8 @@ public:
 
 private slots:
     void on_pushButton_clicked();
+
+    void on_btn_exit_clicked();
 
 private:
     Ui::Demo *ui;
